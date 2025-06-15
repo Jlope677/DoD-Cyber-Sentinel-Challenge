@@ -1,8 +1,7 @@
 # 🔓 Secret.txt Society
 
 **Category:** Web Security\
-**Points:** 75\
-**Solves:** 638
+**Points:** 75
 
 ---
 
@@ -15,6 +14,8 @@ Our team suspected that a Juche Jaguar developer accidentally left something int
 ### 🔍 Step-by-Step Solution
 
 #### 1. Initial Recon – Accessing the Site
+![secret1](https://github.com/user-attachments/assets/c8e59f1f-6dd2-4be0-af34-513a309f5566)
+
 
 URL provided:
 
@@ -27,14 +28,11 @@ The main page mentioned an update to the site's `robots.txt` file – a common p
 #### 2. Check robots.txt
 
 Navigated to:
-
 ```
 https://juche.msoidentity.com/robots.txt
 ```
 
 Found the following:
-
-```txt
 # Friendly Crawler Guidelines for North Torbia
 User-agent: *
 Disallow: /juchejaguar/   # Absolutely nothing valuable in here. Promise.
