@@ -26,9 +26,11 @@ Each challenge listed here includes:
 
 ## 📂 Challenges Completed
 
-| Challenge Name         | Category    | Write-Up Link     |
-|------------------------|-------------|-------------------|
-| Secret.txt Society     | Web         |secretxt_society.md|
+| Challenge Name            | Category    |         Write-Up Link                                     |
+|---------------------------|-------------|-----------------------------------------------------------|
+| Secret.txt Society        | Web         | [secretxt_society.md](secretxt_society.md)                |
+| Hidden in Plain Sight     | Forensics   | [hidden_in_plain_sight.md](hidden_in_plain_sight.md)      |
+
 
 
 
