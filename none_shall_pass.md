@@ -1,7 +1,7 @@
 # 🔐 None Shall Pass – JWT alg: none Token Forgery
 
 **Category:** Web Security\
-**Points:** 200\
+**Points:** 200
 
 ---
 
