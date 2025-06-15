@@ -26,9 +26,9 @@ Each challenge listed here includes:
 
 ## 📂 Challenges Completed
 
-| Challenge Name         | Category    | Write-Up Link|
-|------------------------|-------------|-------------|
-| Secret.txt Society     | Web         |
+| Challenge Name         | Category    | Write-Up Link    |
+|------------------------|-------------|-------------------|
+| Secret.txt Society     | Web         |secretxt_society.md|
 
 
 
