@@ -1,0 +1,36 @@
+# DoD-Cyber-Sentinel-Challenge
+# 🛡️ DoD Cyber Sentinel Challenge 2025
+
+Welcome to my Capture the Flag (CTF) write-up repository for the **DoD Cyber Sentinel Challenge**! This competition featured challenges across various cybersecurity domains, including:
+
+- 🕸️ Web Security  
+- 🔍 Forensics  
+- 🌐 OSINT & Recon  
+- 📡 Networking  
+- 🧬 Malware / Reverse Engineering  
+
+Each challenge listed here includes:
+- A brief summary of the task  
+- Step-by-step walkthrough of how I solved it  
+- Tools and techniques used  
+- The flag 
+- Lessons learned or takeaways  
+
+---
+
+## 📊 My Performance
+
+- **Placement**: 436 out of all participants  
+
+---
+
+## 📂 Challenges Completed
+
+| Challenge Name        | Category               | Write-Up Link  |
+|-----------------------|------------------------|----------------|
+|                       |                        |  |                  
+
+
+
+
+
