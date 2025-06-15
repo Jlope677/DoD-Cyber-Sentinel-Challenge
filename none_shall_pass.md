@@ -2,7 +2,6 @@
 
 **Category:** Web Security\
 **Points:** 200\
-**Solves:** 418
 
 ---
 
