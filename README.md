@@ -30,6 +30,8 @@ Each challenge listed here includes:
 |---------------------------|-------------|-----------------------------------------------------------|
 | Secret.txt Society        | Web         | [secretxt_society.md](secretxt_society.md)                |
 | Hidden in Plain Sight     | Forensics   | [hidden_in_plain_sight.md](hidden_in_plain_sight.md)      |
+| Field Reports Mayhem      | Web         | [field_reports_mayhem.md](field_reports_mayhem.md)        |
+
 
 
 
