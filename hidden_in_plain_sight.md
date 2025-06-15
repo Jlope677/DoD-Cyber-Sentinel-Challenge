@@ -1,7 +1,7 @@
 # 🕵️ Hidden in Plain Sight
 
 **Category:** Forensics\
-**Points:** 75\
+**Points:** 75
 
 ---
 
