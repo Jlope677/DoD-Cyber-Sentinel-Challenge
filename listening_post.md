@@ -2,7 +2,6 @@
 
 **Category:** Forensics / Signal Analysis\
 **Points:** 150\
-**Solves:** 267
 
 ---
 
