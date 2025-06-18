@@ -38,6 +38,7 @@ Each challenge listed here includes:
 | Screamin Screamin                    | Recon                         | [screamin_screamin.md](screamin_screamin.md)              |
 | Packet Whisperer                     | Networking                    | [packet_whisperer.md](packet_whisperer.md)                |
 | Hardcoded Lies                       | Malware / Reverse Engineering | [hardcoded_lies.md](hardcoded_lies.md)                    |
+| Behind the Beat                      | Forensics                     | [behind_the_beat.md](behind_the_beat.md)                  |
 
 
 
