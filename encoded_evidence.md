@@ -1,8 +1,8 @@
 # 🔍 Challenge: Encoded Evidence
 
 **Category:** Reverse Engineering / Malware Analysis\
-**Points:** 75\
-**Solves:** 556
+**Points:** 75
+
 
 ---
 
@@ -55,6 +55,7 @@ Invoke-WebRequest -Uri "https://pastebin.com/raw/eqkzMd2M" -UseBasicParsing | Se
 ```
 QzF7bjBfZDNidWdfbjBfcDR5bn0K
 ```
+![encode evidence1](https://github.com/user-attachments/assets/bfc543ec-320b-4049-bdcd-18c8756f5220)
 
 ---
 
@@ -63,6 +64,7 @@ QzF7bjBfZDNidWdfbjBfcDR5bn0K
 We then decoded this base64 string using [base64decode.org](https://www.base64decode.org/), though other tools like `base64 -d` or Python could also be used.
 
 Decoded Output:
+![encode evidence 2](https://github.com/user-attachments/assets/48611776-91e7-47fe-8d26-f781be7b9657)
 
 ```
 C1{n0_d3bug_n0_p4yn}
