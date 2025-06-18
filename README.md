@@ -26,14 +26,16 @@ Each challenge listed here includes:
 
 ## 📂 Challenges Completed
 
-| Challenge Name                       | Category    |         Write-Up Link                                     |
-|--------------------------------------|-------------|-----------------------------------------------------------|
-| Secret.txt Society                   | Web         | [secretxt_society.md](secretxt_society.md)                |
-| Hidden in Plain Sight                | Forensics   | [hidden_in_plain_sight.md](hidden_in_plain_sight.md)      |
-| Field Reports Mayhem                 | Web         | [field_reports_mayhem.md](field_reports_mayhem.md)        |
-| None Shall Pass                      | Web         | [none_shall_pass.md](none_shall_pass.md)                  |
-| Listening Post                       | Forensics   | [listening_post.md](listening_post.md)                    |
-| The Great Juche Jaguar GraphQL Heist | Web         | [graphql_heist.md](graphql_heist.md)                      |
+| Challenge Name                       | Category     |         Write-Up Link                                     |
+|--------------------------------------|--------------|-----------------------------------------------------------|
+| Secret.txt Society                   | Web          | [secretxt_society.md](secretxt_society.md)                |
+| Hidden in Plain Sight                | Forensics    | [hidden_in_plain_sight.md](hidden_in_plain_sight.md)      |
+| Field Reports Mayhem                 | Web          | [field_reports_mayhem.md](field_reports_mayhem.md)        |
+| None Shall Pass                      | Web          | [none_shall_pass.md](none_shall_pass.md)                  |
+| Listening Post                       | Forensics    | [listening_post.md](listening_post.md)                    |
+| The Great Juche Jaguar GraphQL Heist | Web          | [graphql_heist.md](graphql_heist.md)                      |
+| Problems in North TORbia             | Web/Forensics| [problems_in_north_torbia.md](problems_in_north_torbia.md)|
+
 
 
 
