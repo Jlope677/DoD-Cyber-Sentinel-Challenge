@@ -61,6 +61,8 @@ Hidden at the bottom of the form, we found:
 ---
 
 ### 🔹 Step 3: Capture the Flag
+![problem in tobia1](https://github.com/user-attachments/assets/8a63e084-6d42-47ac-b406-1720d94483b8)
+
 
 The second hidden input field `send_data` contained the flag in plain text:
 
