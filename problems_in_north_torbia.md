@@ -2,7 +2,7 @@
 
 **Category:** Web / Forensics\
 **Points:** 150\
-**Solves:** 576
+
 
 ---
 
