@@ -1,6 +1,6 @@
 # 🎧 Challenge: Behind the Beat – Metadata Hidden Flag
 
-**Category:** Forensics / Audio Analysis\
+**Category:** Forensics /
 **Points:** 75
 
 
