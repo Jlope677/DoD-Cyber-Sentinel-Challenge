@@ -1,7 +1,7 @@
 # 🕵️‍♀️ Problems in North TORbia — CTF Write-Up
 
 **Category:** Web / Forensics\
-**Points:** 150\
+**Points:** 150
 
 
 ---
