@@ -1,6 +1,6 @@
 # 😱 Screamin Screamin — CTF Write-Up
 
-**Category:** Recon/
+**Category:** Recon\
 **Points:** 200
 
 ---
