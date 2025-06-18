@@ -34,7 +34,7 @@ Each challenge listed here includes:
 | None Shall Pass                      | Web          | [none_shall_pass.md](none_shall_pass.md)                  |
 | Listening Post                       | Forensics    | [listening_post.md](listening_post.md)                    |
 | The Great Juche Jaguar GraphQL Heist | Web          | [graphql_heist.md](graphql_heist.md)                      |
-| Problems in North TORbia             | Web/Forensics| [problems_in_north_torbia.md](problems_in_north_torbia.md)|
+| Problems in North TORbia             | OSINT        | [problems_in_north_torbia.md](problems_in_north_torbia.md)|
 
 
 
