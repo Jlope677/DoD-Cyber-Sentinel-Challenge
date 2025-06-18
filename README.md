@@ -35,7 +35,8 @@ Each challenge listed here includes:
 | Listening Post                       | Forensics    | [listening_post.md](listening_post.md)                    |
 | The Great Juche Jaguar GraphQL Heist | Web          | [graphql_heist.md](graphql_heist.md)                      |
 | Problems in North TORbia             | OSINT        | [problems_in_north_torbia.md](problems_in_north_torbia.md)|
-| Screamin Screamin                    | Networking   | [Screamin_Screamin.md](Screamin_Screamin.md)              |
+| Screamin Screamin                    | Networking   | [screamin_screamin.md](screamin_screamin.md)              |
+
 
 
 
