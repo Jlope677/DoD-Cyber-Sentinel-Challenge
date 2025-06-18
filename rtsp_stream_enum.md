@@ -1,7 +1,7 @@
-# 📡 Juche Jaguar RTSP Stream Enumeration — CTF Write-Up
+# 😱 Screamin Screamin — CTF Write-Up
 
-**Category:** Networking / OSINT / Media Enumeration\
-**Points:** 150
+**Category:** Recon
+**Points:** 200
 
 ---
 
@@ -111,6 +111,7 @@ chmod +x brute_rtsp.sh
 📌 **Success:** Stream found at `/stream`
 
 ---
+![Capture (1)](https://github.com/user-attachments/assets/19e582e9-46de-40c1-8c1e-871e8b14a250)
 
 ### 🎥 Step 5: View the Stream and Capture Flag
 
@@ -127,6 +128,7 @@ C1{RTSP_you_found_me}
 ```
 
 ---
+![screamin screamin](https://github.com/user-attachments/assets/caf67cc4-564b-47a9-87cd-dfa1e5950b93)
 
 ## 🧠 Key Takeaways
 
