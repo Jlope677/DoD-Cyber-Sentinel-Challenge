@@ -1,7 +1,7 @@
 # 🔐 Challenge: Hardcoded Lies – Configuration Extraction
 
 **Category:** Malware / Reverse Engineering\
-**Points:** 75\
+**Points:** 75
 
 
 ---
