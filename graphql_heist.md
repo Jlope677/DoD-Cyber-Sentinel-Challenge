@@ -2,7 +2,6 @@
 
 **Category:** Web Exploitation / SSRF / GraphQL  
 **Points:** 300  
-**Solves:** 58
 
 ---
 
