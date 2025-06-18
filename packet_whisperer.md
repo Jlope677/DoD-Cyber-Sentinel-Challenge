@@ -1,8 +1,8 @@
-# 🔐 Credential Leak via Unencrypted HTTP – PCAP Analysis
+# 🔐 Packet Whisperer – PCAP Analysis
 
 **Category:** Forensics / Network Analysis\
-**Points:** 75\
-**Solves:** 648
+**Points:** 75
+
 
 ---
 
@@ -75,6 +75,7 @@ C1{maybe_TLS_would_be_nice}
 ```
 
 ---
+![wireshark1](https://github.com/user-attachments/assets/6d2a81a6-3076-4744-b71e-1afd0863b910)
 
 ## 📌 Key Takeaways
 
