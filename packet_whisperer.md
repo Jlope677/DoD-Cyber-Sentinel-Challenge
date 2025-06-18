@@ -63,7 +63,7 @@ There, you'll see:
 Form item: "username" = "ironpotatoadmin"
 Form item: "password" = "C1{maybe_TLS_would_be_nice}"
 ```
-
+![wireshark1](https://github.com/user-attachments/assets/6d2a81a6-3076-4744-b71e-1afd0863b910)
 ✅ Wireshark automatically decoded the form data—no manual decoding was needed.
 
 ---
@@ -75,7 +75,7 @@ C1{maybe_TLS_would_be_nice}
 ```
 
 ---
-![wireshark1](https://github.com/user-attachments/assets/6d2a81a6-3076-4744-b71e-1afd0863b910)
+
 
 ## 📌 Key Takeaways
 
