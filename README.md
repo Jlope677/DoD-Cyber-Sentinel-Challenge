@@ -32,6 +32,8 @@ Each challenge listed here includes:
 | Hidden in Plain Sight     | Forensics   | [hidden_in_plain_sight.md](hidden_in_plain_sight.md)      |
 | Field Reports Mayhem      | Web         | [field_reports_mayhem.md](field_reports_mayhem.md)        |
 | None Shall Pass          | Web          | [none_shall_pass.md](none_shall_pass.md)                  |
+| Listening Post           | Forensics    | [listening_post.md](listening_post.md)                    |
+
 
 
 
