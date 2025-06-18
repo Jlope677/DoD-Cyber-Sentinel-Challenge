@@ -2,7 +2,7 @@
 
 **Category:** Malware / Reverse Engineering\
 **Points:** 75\
-**Solves:** 590
+
 
 ---
 
@@ -60,6 +60,7 @@ C1{h4rdc0ded_but_0verlooked}
 ```
 
 As seen in the screenshot, this was surrounded by system library paths and internal symbols.
+![hardcodelies1](https://github.com/user-attachments/assets/005c5d4f-fb85-4ae1-aea0-a744466a7fa9)
 
 ---
 
