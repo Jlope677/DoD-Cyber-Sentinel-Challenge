@@ -1,8 +1,7 @@
 # 🔐 Packet Whisperer – PCAP Credential Leak Write-Up
 
-**Category:** Forensics / Network Analysis\
-**Points:** 75\
-**Solves:** 648
+**Category:** Networking\
+**Points:** 75
 
 ---
 
@@ -64,6 +63,7 @@ username=ironpotatoadmin&password=C1%7Bmaybe_TLS_would_be_nice%7D
 ```
 
 ---
+![wireshark1](https://github.com/user-attachments/assets/fbc1020c-b6fc-4c14-85ae-ff549205f900)
 
 ### 🔹 Step 4: Decode the Password
 
