@@ -1,6 +1,6 @@
 # 🔐 Packet Whisperer – PCAP Analysis
 
-**Category:** Forensics / Network Analysis\
+**Category:** Networking\
 **Points:** 75
 
 
