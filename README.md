@@ -36,6 +36,8 @@ Each challenge listed here includes:
 | The Great Juche Jaguar GraphQL Heist | Web          | [graphql_heist.md](graphql_heist.md)                      |
 | Problems in North TORbia             | OSINT        | [problems_in_north_torbia.md](problems_in_north_torbia.md)|
 | Screamin Screamin                    | Recon        | [screamin_screamin.md](screamin_screamin.md)              |
+| Packet Whisperer                     | Networking   | [packet_whisperer.md](packet_whisperer.md)                |
+
 
 
 
