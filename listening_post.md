@@ -1,7 +1,7 @@
 # 🛰️ Listening Post – Audio Signal Decode Challenge
 
 **Category:** Forensics / Signal Analysis\
-**Points:** 150\
+**Points:** 150
 
 ---
 
